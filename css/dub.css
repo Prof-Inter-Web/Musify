@@ -61,6 +61,7 @@ body {
 
 .air:hover {
   transform: rotate(10deg);
+  
 }
 
 .lost-highway {
