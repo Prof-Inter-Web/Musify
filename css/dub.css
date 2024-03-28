@@ -41,14 +41,28 @@ body {
   transform-origin: bottom left;
   font-family: 'kanit';
   opacity: 0.1;
+
 }
 
 @media (max-width: 760px) {
 .music {
   transform: translateY(-40vh) translateX(3vh) rotate(0deg);
 }
+
+.square-wave {
+  transform: translateY(30vh) translateX(-6vh) scale(0.5)   rotate(0deg);
+ 
+}
 }
 
+.square-wave {
+  position: absolute;
+  top: 40%;
+  right: 7%;
+  fill: rgba(0, 0, 0, 0.043);
+  width: 30vh;
+  padding-right: 12px;
+}
 
 .menu {
   top: 25%;
