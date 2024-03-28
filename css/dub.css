@@ -26,16 +26,20 @@ body {
 }
 
 .menu {
-  position: absolute;
   top: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 2vh;
 }
 
 .accueil {
-  position: absolute;
+  width: 6.5vh;
   background-color: #171717;
   left: 10px;
   color: #fff;
-  padding: 3.4vh 2.4vh 3.4vh 2.4vh;
+  padding: 3.4vh 1.8vh 3.4vh 1.8vh;
   text-decoration: none;
   font-size: 20px;
   font-family: 'HelveticaCompressed';
@@ -50,9 +54,7 @@ body {
 }
 
 .air {
-  position: absolute;
   width: 10vh;
-  top: 100px;
   left: 10px;
   box-shadow: 0 0 10vmin rgba(0, 0, 0, 0.5);
   transition-property: transform;
@@ -61,13 +63,10 @@ body {
 
 .air:hover {
   transform: rotate(10deg);
-  
 }
 
 .lost-highway {
-  position: absolute;
   width: 10vh;
-  top: 205px;
   left: 10px;
   box-shadow: 0 0 10vmin rgba(0, 0, 0, 0.5);
   transition-property: transform;
@@ -79,9 +78,7 @@ body {
 }
 
 .trainspotting {
-  position: absolute;
   width: 10vh;
-  top: 310px;
   left: 10px;
   box-shadow: 0 0 10vmin rgba(0, 0, 0, 0.5);
   transition-property: transform;
@@ -91,14 +88,13 @@ body {
 .trainspotting:hover {
   transform: rotate(10deg);
 }
-
 .album {
   position: absolute;
   width: 80vmin;
   aspect-ratio: 1/1;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -42%);
   background-color: var(--bleu);
   background-image: url(../images/bg.webp);
   background-size: cover;
