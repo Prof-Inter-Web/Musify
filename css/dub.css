@@ -25,6 +25,72 @@ body {
   background-blend-mode: screen;
 }
 
+.menu {
+  position: absolute;
+  top: 25%;
+}
+
+.accueil {
+  position: absolute;
+  background-color: #171717;
+  left: 10px;
+  color: #fff;
+  padding: 3.4vh 2.4vh 3.4vh 2.4vh;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'HelveticaCompressed';
+  text-align: center;
+  box-shadow: 0 0 10vmin rgba(0, 0, 0, 0.5);
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+.accueil:hover {
+  transform: rotate(10deg);
+}
+
+.air {
+  position: absolute;
+  width: 10vh;
+  top: 100px;
+  left: 10px;
+  box-shadow: 0 0 10vmin rgba(0, 0, 0, 0.5);
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+.air:hover {
+  transform: rotate(10deg);
+}
+
+.lost-highway {
+  position: absolute;
+  width: 10vh;
+  top: 205px;
+  left: 10px;
+  box-shadow: 0 0 10vmin rgba(0, 0, 0, 0.5);
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+.lost-highway:hover {
+  transform: rotate(10deg);
+}
+
+.trainspotting {
+  position: absolute;
+  width: 10vh;
+  top: 310px;
+  left: 10px;
+  box-shadow: 0 0 10vmin rgba(0, 0, 0, 0.5);
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+.trainspotting:hover {
+  transform: rotate(10deg);
+}
+
 .album {
   position: absolute;
   width: 80vmin;
