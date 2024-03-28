@@ -3,6 +3,12 @@
     src: url(../fonts/trainspotting.otf) format(opentype);
 }
 
+@font-face {
+    font-family: "Kanit";
+    src: url(../fonts/Kanit-Bold.ttf) format(truetype);
+    src: url(../fonts/Kanit-Regular.ttf) format(truetype);
+  }
+
 :root {
     --gris:   #888888;
     --bleu:   #011e30;
@@ -21,6 +27,25 @@ body {
     background-color: var(--gris);
     background-image: linear-gradient(var(--orange), var(--bleu));
     background-blend-mode: screen;
+}
+
+
+.music {
+    position: absolute;
+    top: 55vh;
+    left: 16vmin;
+    font-size: 20vmin;
+    color: #0a0402;
+    transform: translatex(15vw) rotate(-90deg);
+    transform-origin: bottom left;
+    font-family: 'kanit';
+    opacity: 0.1;
+}
+
+@media (max-width: 760px) {
+  .music {
+    transform: translateY(-40vh) translateX(3vh) rotate(0deg);
+  }
 }
 
 

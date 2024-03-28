@@ -3,6 +3,12 @@
     src: url(../fonts/DisplayDots-4nB4.woff) format(woff);
 }
 
+@font-face {
+    font-family: "Kanit";
+    src: url(../fonts/Kanit-Bold.ttf) format(truetype);
+    src: url(../fonts/Kanit-Regular.ttf) format(truetype);
+  }
+
 :root {
     --light-speed: 2s;
     --gris:   #666666;
@@ -20,6 +26,24 @@ body {
     background-color: var(--gris);
     background-image: linear-gradient(var(--orange), var(--beige));
     background-blend-mode: screen;
+}
+
+.music {
+    position: absolute;
+    top: 55vh;
+    left: 16vmin;
+    font-size: 20vmin;
+    color: #0a0402;
+    transform: translatex(15vw) rotate(-90deg);
+    transform-origin: bottom left;
+    font-family: 'kanit';
+    opacity: 0.1;
+}
+
+@media (max-width: 760px) {
+  .music {
+    transform: translateY(-40vh) translateX(3vh) rotate(0deg);
+  }
 }
 
 
