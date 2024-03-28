@@ -32,6 +32,9 @@ body {
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding-top: 2vh;
+  padding-bottom: 2vh;
+  background-color: #fcfcfc29;
+  box-shadow: 0 0 10vmin rgba(0, 0, 0, 0.5s);
 }
 
 .accueil {
@@ -39,18 +42,20 @@ body {
   background-color: #171717;
   left: 10px;
   color: #fff;
-  padding: 3.4vh 1.8vh 3.4vh 1.8vh;
+  padding: 4vh 1.8vh 2.8vh 1.8vh;
   text-decoration: none;
   font-size: 20px;
   font-family: 'HelveticaCompressed';
   text-align: center;
   box-shadow: 0 0 10vmin rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
   transition-property: transform;
   transition-duration: 0.5s;
 }
 
 .accueil:hover {
   transform: rotate(10deg);
+  box-shadow: 0 0 2vmin rgba(255, 255, 255, 0.5);
 }
 
 .air {
@@ -59,35 +64,42 @@ body {
   box-shadow: 0 0 10vmin rgba(0, 0, 0, 0.5);
   transition-property: transform;
   transition-duration: 0.5s;
+  border-radius: 8px;
 }
 
 .air:hover {
   transform: rotate(10deg);
-}
+  box-shadow: 0 0 2vmin rgba(255, 255, 255, 0.5);  }
 
 .lost-highway {
   width: 10vh;
   left: 10px;
   box-shadow: 0 0 10vmin rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
   transition-property: transform;
   transition-duration: 0.5s;
 }
 
 .lost-highway:hover {
   transform: rotate(10deg);
+  box-shadow: 0 0 2vmin rgba(255, 255, 255, 0.5);
 }
 
 .trainspotting {
   width: 10vh;
   left: 10px;
   box-shadow: 0 0 10vmin rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
   transition-property: transform;
   transition-duration: 0.5s;
 }
 
 .trainspotting:hover {
   transform: rotate(10deg);
+  box-shadow: 0 0 2vmin rgba(255, 255, 255, 0.5);
 }
+
+
 .album {
   position: absolute;
   width: 80vmin;
