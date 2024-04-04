@@ -29,13 +29,11 @@ body {
 }
 
 .music {
-    position: absolute;
-    top: 55vh;
-    left: 16vmin;
-    font-size: 20vmin;
+   
+    transform: rotate(-90deg);
+    font-size: 10vw;
     color: #0a0402;
-    transform: translatex(15vw) rotate(-90deg);
-    transform-origin: bottom left;
+ 
     font-family: 'kanit';
     opacity: 0.1;
 }
