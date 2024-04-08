@@ -92,6 +92,12 @@ body {
   transition-duration: 0.5s;
 }
 
+@media (max-width: 500px) {
+  .accueil {
+    font-size: 12px;
+  }
+}
+
 .accueil:hover {
   transform: rotate(10deg);
   box-shadow: 0 0 2vmin rgba(255, 255, 255, 0.5);
