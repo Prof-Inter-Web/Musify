@@ -45,8 +45,8 @@ body {
 
   .square-wave {
     transform: translateY(30vh) translateX(-6vh) scale(0.5)   rotate(0deg);
-   
   }
+  
 }
 
 .square-wave {

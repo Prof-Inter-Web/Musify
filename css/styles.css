@@ -194,6 +194,11 @@ body {
     height: 7vw;
     left: 40vw;
   }
+
+  div.muzieknootjes {
+    top: 10%;
+    left: 30%;
+  }
 }
 
 @media (max-width: 800px) {
@@ -212,6 +217,11 @@ body {
   .wave-left {
     height: 10vw;
     left: 38vw;
+  }
+
+  div.muzieknootjes {
+    top: 8%;
+    left: 25%;
   }
 }
 
