@@ -77,11 +77,12 @@ body {
 }
 
 .accueil {
-  width: 6.5vh;
+  width: 10vh;
+  height: 7vh;
   background-color: #171717;
   left: 10px;
   color: #fff;
-  padding: 4vh 1.8vh 2.8vh 1.8vh;
+  padding-top: 3vh;
   text-decoration: none;
   font-size: 20px;
   font-family: 'HelveticaCompressed';
@@ -94,7 +95,7 @@ body {
 
 @media (max-width: 500px) {
   .accueil {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 

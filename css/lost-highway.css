@@ -76,11 +76,12 @@ body {
   }
   
   .accueil {
-    width: 6.5vh;
+    width: 10vh;
+    height: 6vh;
     background-color: #171717;
     left: 10px;
     color: #fff;
-    padding: 4.2vh 1.8vh 2.6vh 1.8vh;
+    padding-top: 4vh;
     text-decoration: none;
     font-size: 12px;
     font-family: 'LostHighway';
@@ -94,11 +95,11 @@ body {
 
   @media (max-width: 500px) {
     .accueil {
-      font-size: 12px;
+      font-size: 9px;
     }
   }
 
-  
+
   .accueil:hover {
     transform: rotate(10deg);
     box-shadow: 0 0 2vmin rgba(255, 255, 255, 0.5);
