@@ -29,11 +29,9 @@ body {
 }
 
 .music {
-   
     transform: rotate(-90deg);
     font-size: 10vw;
     color: #0a0402;
- 
     font-family: 'kanit';
     opacity: 0.1;
 }
