@@ -225,7 +225,7 @@ body {
   }
 }
 
-@media (max-width: 500px) {
+@media  (max-width: 500px) {
   .welcome h1 {
     font-size: 2.5em;
   }
@@ -242,6 +242,12 @@ body {
     height: 10vw;
     left: 35vw;
   }
+
+  div.muzieknootjes {
+    top: 10%;
+    left: 9%;
+  }
+
 }
 
 
