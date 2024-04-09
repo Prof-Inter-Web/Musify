@@ -70,7 +70,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding-top: 2vh;
+  padding-top: 1vh;
   padding-bottom: 2vh;
   background-color: #fcfcfc29;
   box-shadow: 0 0 10vmin rgba(0, 0, 0, 0.5s);
